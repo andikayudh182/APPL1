@@ -29,11 +29,18 @@ public class Numbers {
         System.out.println("\nEnter the numbers...");
         for (int i = 0; i < size; i++)
             intList[i] = scan.nextInt();
+        
         Sorting.selectionSort(intList);
-        System.out.println("\nYour numbers in sorted order...");
+        System.out.println("\nYour numbers in ascending order...");
 
         for (int i = 0; i < size; i++)
             System.out.print(intList[i] + " ");
-        System.out.println();
+        
+        Sorting.insertionSort(intList);
+        System.out.println("\nYour numbers in descending order...");
+
+        for (int i = 0; i < size; i++)
+            System.out.print(intList[i] + " ");
+            System.out.println();
     }
 }
