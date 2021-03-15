@@ -7,7 +7,7 @@ package paintingshapes;
 
 /**
  *
- * @author ANDIKA YUDHA RIYANTO
+ * @author andika19
  */
 public abstract class Shape {
     protected String shapeName;

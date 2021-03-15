@@ -9,26 +9,26 @@ package paintingshapes;
  *
  * @author andika19
  */
-public class Cylinder extends Shape{
-    private double height;
-    private double radius;
-    
-    public Cylinder(double h, double r){
-        super("Cylinder");
-        height = h;
-        radius = r;
-    }
 
+public class Rectangle extends Shape{
+    
+    private double width;
+    private double length;
+    
+    public Rectangle(double w, double l){
+        super("Rectangle");
+        width = w;
+        length = l;
+    }
 
     @Override
     public double area() {
-        return Math.PI*radius*radius*height;
+        return width*length;
     }
     
     @Override
     public String toString(){
-        return super.toString() + " of radius " + radius +" and height "+ height;
+        return super.toString() + " of length " + length +" and width "+ width;
     }
+    
 }
-
-
