@@ -38,7 +38,7 @@ public class WeeklySales {
         }
         
         Sorting.insertionSort(salesStaff);
-        System.out.println ("\nRanking of Sales for the Week\n");
+        System.out.println ("\nRanking of Sales for the Weeka");
         for (Salesperson s : salesStaff)
             System.out.println (s);
     }

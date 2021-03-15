@@ -26,10 +26,18 @@ public class Strings {
             strList[i] = scan.next();
         Sorting.selectionSort(strList);
 
-        System.out.println("\nYour String in sorted order...");
+        System.out.println("\nYour strings in descending  order...");
         for (int i = 0; i < size; i++)
             System.out.print(strList[i] + " ");
         System.out.println();
+        
+         Sorting.insertionSort(strList);
+
+        System.out.println("\nYour strings in ascending order...");
+        for (int i = 0; i < size; i++)
+            System.out.print(strList[i] + " ");
+        System.out.println();
+
 
     }
 }
