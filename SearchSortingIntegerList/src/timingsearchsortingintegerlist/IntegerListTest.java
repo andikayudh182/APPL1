@@ -13,7 +13,7 @@ import java.util.*;
       static Scanner scan = new Scanner(System.in);
   
     //------------------------------------------------------
-    // main -- creates an initial list, then repeatedly prints
+    // main -- creates an initial    list, then repeatedly prints
     // the menu and does what the user asks until they quit
     //------------------------------------------------------
        public static void main(String[] args)
