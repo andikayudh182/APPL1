@@ -112,24 +112,7 @@ import java.util.Scanner;
          }
       }
   
-       public void bubble() // ascending order
-      { boolean sorted;
-         int temp;
-         int numpairs = list.length-1;
-         do
-         {  sorted = true;
-            for (int i  = 0; i < numpairs; ++i)
-               if (list[i] > list[i+1])
-               {  temp = list[i];
-                  list[i] = list[i+1];
-                  list[i+1] = temp;
-                  sorted = false;
-               }
-            numpairs--;
-         }
-         while (sorted == false);
-     
-      }
+      
        public int binarySearch (int target)
       { int first = 0, middle, last = list.length-1;
          while (first <= last)

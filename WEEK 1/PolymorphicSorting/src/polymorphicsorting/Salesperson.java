@@ -35,7 +35,8 @@ public class Salesperson implements Comparable {
 
         @Override
 	public boolean equals (Object other) {
-            return(lastName.equals(((Salesperson)other).getLastName()) && firstName.equals(((Salesperson)other).getFirstName()));
+            return(lastName.equals(((Salesperson)other).getLastName()) && 
+                    firstName.equals(((Salesperson)other).getFirstName()));
         }
         
         @Override

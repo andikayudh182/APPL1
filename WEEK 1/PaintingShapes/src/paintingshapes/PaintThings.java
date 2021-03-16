@@ -28,7 +28,9 @@ public class PaintThings {
         bigBall = new Sphere(15);
         Tank = new Cylinder(30,10);
         
-        double deckamt = paint.amount(deck), ballamt = paint.amount(bigBall), tankamt = paint.amount(Tank);
+        double deckamt = paint.amount(deck), 
+                ballamt = paint.amount(bigBall), 
+                tankamt = paint.amount(Tank);
         //
         
         //

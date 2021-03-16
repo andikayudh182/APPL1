@@ -97,13 +97,7 @@ import java.util.*;
                System.out.println("Time in milliseconds. " + (time2 - time1));
                System.out.println("List has been sorted.");
                break;
-            case 9:
-               time1 = System.currentTimeMillis();
-               list.bubble();
-               time2 = System.currentTimeMillis();
-               System.out.println("Time in milliseconds. " + (time2 - time1));
-               System.out.println("List has been sorted.");
-               break;
+    
             default:
                System.out.println("Sorry, invalid choice");
          }
@@ -129,8 +123,6 @@ import java.util.*;
               " increasing order");
          System.out.println("8: Use insertion sort to sort the list into " +
               " decreasing order");
-         System.out.println("9: Use bubble sort to sort the list into " +
-              " increasing order");
          System.out.print("\nEnter your choice: ");
       }
    }
