@@ -52,26 +52,26 @@ public class CirclePanel extends JPanel{
         JButton yellow = new JButton("Yellow");
         JButton blue = new JButton("Blue");
         JButton green = new JButton("Green");
-        JButton white = new JButton("White");
+        JButton red = new JButton("Red");
         
         // Add listeners to the buttons
         yellow.addActionListener(new ColorListener(Color.yellow));
         blue.addActionListener(new ColorListener(Color.blue));
         chooseColor.addActionListener(new ColorListener(null));
         green.addActionListener(new ColorListener(Color.green));
-        white.addActionListener(new ColorListener(Color.white));
+        red.addActionListener(new ColorListener(Color.red));
         
         //background of each button
         yellow.setBackground(Color.yellow);
         blue.setBackground(Color.blue);
         green.setBackground(Color.green);
-        white.setBackground(Color.white);
+        red.setBackground(Color.red);
         
         //foreground of each button
         yellow.setForeground(Color.black);
         blue.setForeground(Color.white);
         green.setForeground(Color.white);
-        white.setForeground(Color.black);
+        red.setForeground(Color.black);
         
         // Need a panel to put the buttons on or they'll be on
         // top of each other.
@@ -80,7 +80,7 @@ public class CirclePanel extends JPanel{
         buttonPanelColor.add(blue);
         buttonPanelColor.add(chooseColor);
         buttonPanelColor.add(green);
-        buttonPanelColor.add(white);
+        buttonPanelColor.add(red);
         // Add the button panel to the bottom of the main panel
         this.add(buttonPanelColor, "North");
     }
