@@ -44,7 +44,7 @@ public class CirclePanel extends JPanel{
         buttonPanel.add(right);
         buttonPanel.add(up);
         buttonPanel.add(down);
-        // Add the button panel to the bottom of the main panel
+        // Add the button panel to the top of the main panel
         this.add(buttonPanel, "South");
         
         
