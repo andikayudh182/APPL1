@@ -82,6 +82,43 @@ public class IntegerList
             }
         }
     }
+/*add method sortDecreasing that sorts the list into decreasing 
+(instead of increasing) order. using  selection sort*/
     
+    public void sortDecreasing(){
+       int maxIndex;
+       for (int i=0; i < list.length-1; i++)
+       {
+           //find smallest element in list starting at location i
+           maxIndex = i;
+           for (int j = i+1; j < list.length; j++)
+           if (list[j] > list[maxIndex])
+           maxIndex = j;
+           //swap list[i] with smallest element
+           int temp = list[i]; 
+           list[i] = list[maxIndex];
+           list[maxIndex] = temp;
+       }
+    }
+/* add method binarySearchD that uses a binary search to find the target assuming 
+the list is sorted in decreasing order */
+    
+     public int binarySearchD (int target){
+        int left = 0;
+        int right = list.length - 1;
+
+        while (left <= right) {
+             int mid = left + (right - left)/2;   
+            if (list[mid] < target) {
+                right = mid - 1;
+            } else if (list[mid] > target) {
+                left  = mid + 1;
+            } else {
+                return mid;
+            }
+        }
+        
+        return -1;
+    }
 }
 
