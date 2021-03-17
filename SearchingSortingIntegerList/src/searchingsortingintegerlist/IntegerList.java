@@ -67,4 +67,21 @@ public class IntegerList
         list[minIndex] = temp; 
         } 
     } 
+ 
+ //add method replaceFirst that replace the first occurance of oldVal in the list with newVal.
+    public void replaceFirst(int oldVal, int newVal){
+        if(search(oldVal) != -1){
+            list[search(oldVal)] = newVal ;
+        }
+    }
+//add method replaceAll that replaces all occurrences of oldVal in the list with newVal.
+    public void replaceAll(int oldVal, int newVal){
+        for (int i = 0; i < list.length; i++){
+            if(list[i] == oldVal ){
+                list[i] = newVal;
+            }
+        }
+    }
+    
 }
+
