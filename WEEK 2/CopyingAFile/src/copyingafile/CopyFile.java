@@ -33,7 +33,7 @@ public class CopyFile{
           
             try{
                 Scanner input = new Scanner(fileLoc);
-                exist = true;
+               
             // Print file 
                 
                  while(input.hasNext()){
