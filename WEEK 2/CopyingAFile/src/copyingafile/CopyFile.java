@@ -19,30 +19,36 @@ public class CopyFile{
 
     public static void main (String[] args){
         Scanner scan = new Scanner(System.in);
-        Scanner input = null;
         boolean exist = false;
-        File file;
+        int barisFile = 1;
+     
         
-        do{
-            /*Get File Name*/
-            System.out.println("Masukkan Alamat File : ");
-            file = new File(scan.nextLine());
-            /*Trying to Open File*/
+        while(!exist)
+        {
+            //Input file txt
+            System.out.println("Masukkan Nama File(.txt) : ");
+            String fileName = scan.nextLine();
+            File fileLoc = new File("C:\\Users\\ANDIKA YUDHA RIYANTO\\Documents\\GitHub\\APPL1\\"
+                    + "WEEK 2\\CopyingAFile\\src\\copyingafile\\" + fileName + ".txt");
+          
             try{
-                input = new Scanner(file);
+                Scanner input = new Scanner(fileLoc);
                 exist = true;
+            // Print file 
+                
+                 while(input.hasNext()){
+                        System.out.println("Baris " + barisFile + " : "+
+                        input.nextLine());
+                        barisFile += 1 ;
+                }
             }
             catch (FileNotFoundException e){
-                System.out.println("File is not found " + e + "\n");
+                System.out.println("File tidak ditemukan " + e + "\n");
             }
-        }while(!exist); //if the file doesn't exist, ask for another file name
-        
-        /*Print isi File*/
-        int barisFile = 1;
-        while(input.hasNext()){
-            System.out.println("Baris " + barisFile + " : "+
-                    input.nextLine());
-            barisFile =+ 1 ;
+    
         }
+       
+      
+       
     }
 }
