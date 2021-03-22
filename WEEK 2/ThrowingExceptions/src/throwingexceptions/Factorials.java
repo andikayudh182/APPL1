@@ -27,9 +27,13 @@ public class Factorials
         { 
             System.out.print("Enter an integer: "); 
             int val = scan.nextInt(); 
+            try{
             System.out.println("Factorial(" + val + ") = " 
             + MathUtils.factorial(val)); 
-            
+            }
+            catch (IllegalArgumentException e){
+                   System.out.println(e);
+            }
             System.out.print("Another factorial? (y/n) "); 
             keepGoing = scan.next(); 
         } 
