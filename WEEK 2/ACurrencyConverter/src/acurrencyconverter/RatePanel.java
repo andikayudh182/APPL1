@@ -34,26 +34,34 @@ public class RatePanel extends JPanel
  JLabel title = new JLabel ("How much is that in dollars?"); 
  title.setAlignmentX (Component.CENTER_ALIGNMENT); 
  title.setFont (new Font ("Helvetica", Font.BOLD, 20)); 
+ 
  // Set up the arrays for the currency conversions 
  currencyName = new String[] {"Select the currency..", 
  "European Euro", "Canadian Dollar", 
  "Japanese Yen", "Australian Dollar", 
  "Indian Rupee", "Mexican Peso"}; 
+
+ // create a combo box with the fixed array:
+JComboBox<String> comboCurrency = new JComboBox<String>(currencyName);
+
  rate = new double [] {0.0, 1.2103, 0.7351, 
  0.0091, 0.6969, 
  0.0222, 0.0880}; 
  
  result = new JLabel (" ------------ "); 
  add (title); 
- 
+ add (comboCurrency); 
  add (result); 
  
  } 
  // ****************************************************** 
  // Represents an action listener for the combo box. 
+ 
  // ****************************************************** 
+ 
  private class ComboListener implements ActionListener 
  { 
+     
  // -------------------------------------------------- 
  // Determines which currency has been selected and 
  // the value in that currency then computes and 
