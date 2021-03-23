@@ -41,6 +41,7 @@ public class CopyFile{
                         input.nextLine());
                         barisFile += 1 ;
                 }
+
             }
             catch (FileNotFoundException e){
                 System.out.println("File tidak ditemukan " + e + "\n");
