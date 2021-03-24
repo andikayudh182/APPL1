@@ -9,10 +9,8 @@ package placingexceptionhandlers;
 import java.util.Scanner;
 public class ParseInts{
     public static void main(String[] args){
-    
     int val, sum=0;
     Scanner scan = new Scanner(System.in);
-    String line;
     
     System.out.println("Enter a line of text");
     Scanner scanLine = new Scanner(scan.nextLine());
@@ -20,12 +18,10 @@ public class ParseInts{
     
     while (scanLine.hasNext()){
     try{ 
-    val = Integer.parseInt(scanLine.next());
-    sum += val;
+        val = Integer.parseInt(scanLine.next());
+        sum += val;
     
         }
-    
-    
     catch (NumberFormatException exp){
         //System.out.println(exp +"tidak boleh memasukkan string di awal kalimat");
         }

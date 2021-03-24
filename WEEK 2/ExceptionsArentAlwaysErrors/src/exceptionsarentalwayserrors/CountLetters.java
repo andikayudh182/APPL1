@@ -29,7 +29,7 @@ public class CountLetters{
                 System.out.println((char)(i +'A') + ": " + counts[i]);
         }
         catch (ArrayIndexOutOfBoundsException ex){
-             System.out.print( ex +"\nNot a letter (or a single word). ");
+                System.out.print( ex +"\nNot a letter (or a single word). ");
         }
          
     }

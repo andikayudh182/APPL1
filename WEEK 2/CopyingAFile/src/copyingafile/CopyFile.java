@@ -18,8 +18,7 @@ public class CopyFile{
         Scanner scan = new Scanner(System.in);
         boolean exist = false;
         int barisFile = 1;
-     
-        
+            
         while(!exist)
         {
             //Input file txt
@@ -44,9 +43,6 @@ public class CopyFile{
                 System.out.println("File tidak ditemukan " + e + "\n");
             }
     
-        }
-       
-      
-       
+        }   
     }
 }

@@ -116,9 +116,6 @@ public class CirclePanel extends JPanel {
                 if (x == -5)left.setEnabled(false); else left.setEnabled(true);
                 if (y == 185)down.setEnabled(false); else down.setEnabled(true);
                 if (y == 5)up.setEnabled(false); else up.setEnabled(true);
-
-           }
-
+          }
       }
-
 }
