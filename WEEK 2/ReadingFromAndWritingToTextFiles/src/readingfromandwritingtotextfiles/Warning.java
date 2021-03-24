@@ -1,17 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package readingfromandwritingtotextfiles;
-
-/**
- *
- * @author ANDIKA YUDHA RIYANTO
- */
 // **************************************************************************** 
 // Warning.java 
-// 
+// Andika Yudha Riyanto - 191524034
+// D4-2B Teknik Informatika
+// Politeknik Negeri Bandung 
 // Reads student data from a text file and writes data to another text file. 
 // **************************************************************************** 
 import java.util.Scanner; 

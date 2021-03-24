@@ -1,19 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package throwingexceptions;
 
-/**
- *
- * @author ANDIKA YUDHA RIYANTO
- */
+package throwingexceptions;
 // **************************************************************** 
 // MathUtils.java 
-// 
+// Andika Yudha Riyanto - 191524034
+// D4-2B Teknik Informatika
+// Politeknik Negeri Bandung 
 // Provides static mathematical utility functions. 
-// 
+
 // **************************************************************** 
 public class MathUtils 
 { 

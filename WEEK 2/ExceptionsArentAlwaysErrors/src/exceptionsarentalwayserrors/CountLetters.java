@@ -1,20 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package exceptionsarentalwayserrors;
-
-/**
- *
- * @author ANDIKA YUDHA RIYANTO
- */
 // **************************************************************** 
 // CountLetters.java 
-// 
+// Andika Yudha Riyanto - 191524034
+// D4-2B Teknik Informatika
+// Politeknik Negeri Bandung 
 // Reads a words from the standard input and prints the number of 
-// occurrences of each letter in that word. 
-// 
+// occurrences of each letter in that word
 // **************************************************************** 
 import java.util.Scanner;
 public class CountLetters{

@@ -1,19 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package acurrencyconverter;
-
-/**
- *
- * @author ANDIKA YUDHA RIYANTO
- */
 // ****************************************************************** 
 // RatePanel.java 
-// 
-// Panel for a program that converts different currencies to 
-// U.S. Dollars 
+// Andika Yudha Riyanto - 191524034
+// D4-2B Teknik Informatika
+// Politeknik Negeri Bandung 
+// Panel for a program that converts different currencies to U.S. Dollars 
 // ****************************************************************** 
 import java.awt.*; 
 import java.awt.event.*; 

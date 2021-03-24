@@ -1,14 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package copyingafile;
-
-/**
- *
- * @author ANDIKA YUDHA RIYANTO
- */
+// **************************************************************** 
+// CopyFile.java 
+// Andika Yudha Riyanto - 191524034
+// D4-2B Teknik Informatika
+// Politeknik Negeri Bandung 
+// Copying file from directory and print it.
+// **************************************************************** 
 import java.io.*;
 import java.util.Scanner;
 import java.io.*;
