@@ -1,6 +1,8 @@
 // ****************************************************************
 // PrimePanel.java
-//
+// Andika Yudha Riyanto - 191524034
+// D4-2B Teknik Informatika
+// Politeknik Negeri Bandung 
 // Represents the panel for a program that displays all primes
 // up to a number input by the user.
 // ****************************************************************
