@@ -20,7 +20,9 @@ public class MathUtils
       }
         int fac = 1; 
         for (int i=n; i>0; i--) 
+       
         fac *= i; 
+       
         return fac; 
     } 
 }

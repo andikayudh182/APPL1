@@ -16,10 +16,11 @@ public class CopyFile{
 
     public static void main (String[] args){
         Scanner scan = new Scanner(System.in);
-        boolean exist = false;
+        boolean ketemu = false;
         int barisFile = 1;
+        Scanner input = null ;
             
-        while(!exist)
+        while(!ketemu)
         {
             //Input file txt
             System.out.println("Masukkan Nama File(.txt) : ");
@@ -28,7 +29,7 @@ public class CopyFile{
                     + "WEEK 2\\CopyingAFile\\src\\copyingafile\\" + fileName + ".txt");
           
             try{
-                Scanner input = new Scanner(fileLoc);
+              input = new Scanner(fileLoc);
                
             // Print file 
                 
@@ -37,12 +38,18 @@ public class CopyFile{
                         input.nextLine());
                         barisFile += 1 ;
                 }
-
+                 
             }
+            
             catch (FileNotFoundException e){
                 System.out.println("File tidak ditemukan " + e + "\n");
             }
-    
-        }   
+               if (input !=null){
+                   ketemu = true ;
+               }
+                
+        }  
+        
+        
     }
 }

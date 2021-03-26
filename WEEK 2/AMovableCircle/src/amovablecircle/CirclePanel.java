@@ -68,9 +68,9 @@ public class CirclePanel extends JPanel {
            * Adding tooltips to the buttons
            */
            left.setToolTipText("Lingkaran bergerak ke kiri sejauh 20 pixels");
-           right.setToolTipText("Lingkaran bergerak ke atas sejauh 20pixels");
-           up.setToolTipText("the circle will be moved up 20 pixels");
-           down.setToolTipText("the circle will be moved down 20 pixels");
+           right.setToolTipText("Lingkaran bergerak ke kanan sejauh 20 pixels");
+           up.setToolTipText("Lingkaran bergerak ke atas sejauh 20 pixels");
+           down.setToolTipText("Lingkaran bergerak ke bawah sejauh  20 pixels");
        
       }
       //----------------------------------------------------------------
